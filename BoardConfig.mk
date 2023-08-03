@@ -16,16 +16,16 @@
 # inherit from common
 include device/samsung/universal990-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/samsung/x1slte
+DEVICE_PATH := device/samsung/x1s
 
 # Display
 TARGET_SCREEN_DENSITY := 480
 
 # Kernel
-TARGET_KERNEL_CONFIG := exynos9830-x1slte_defconfig
+TARGET_KERNEL_CONFIG := exynos9830-x1sxxx_defconfig
 
 # OTA
-TARGET_OTA_ASSERT_DEVICE := x1slte
+TARGET_OTA_ASSERT_DEVICE := x1sxxx
 
 # inherit from the proprietary version
--include vendor/samsung/x1slte/BoardConfigVendor.mk
+-include vendor/samsung/x1sxxx/BoardConfigVendor.mk
