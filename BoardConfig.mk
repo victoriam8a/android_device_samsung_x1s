@@ -25,7 +25,7 @@ TARGET_SCREEN_DENSITY := 480
 TARGET_KERNEL_CONFIG := exynos9830-x1sxxx_defconfig
 
 # OTA
-TARGET_OTA_ASSERT_DEVICE := x1sxxx
+TARGET_OTA_ASSERT_DEVICE := x1s
 
 # inherit from the proprietary version
--include vendor/samsung/x1sxxx/BoardConfigVendor.mk
+-include vendor/samsung/x1s/BoardConfigVendor.mk
