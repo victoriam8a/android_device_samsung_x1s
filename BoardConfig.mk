@@ -27,5 +27,10 @@ TARGET_KERNEL_CONFIG := exynos9830-x1sxxx_defconfig
 # OTA
 TARGET_OTA_ASSERT_DEVICE := x1s
 
+
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_x1s
+TARGET_RECOVERY_DEVICE_MODULES := libinit_x1s
+
 # inherit from the proprietary version
 -include vendor/samsung/x1s/BoardConfigVendor.mk
