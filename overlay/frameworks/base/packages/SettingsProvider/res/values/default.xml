@@ -20,4 +20,3 @@
     <!-- Default for Settings.Global.DEVICE_NAME $1=MODEL-->
     <string name="def_device_name_simple">Galaxy S20 5G</string>
 </resources>
-<manifest>
