@@ -24,4 +24,3 @@
       android:targetName="WifiCustomization"
       android:isStatic="true"
       android:priority="0"/>
-</manifest>
