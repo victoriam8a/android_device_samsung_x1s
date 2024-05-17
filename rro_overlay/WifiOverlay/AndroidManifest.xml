@@ -25,3 +25,5 @@
       android:isStatic="true"
       android:priority="0"/>
 </manifest>
+<remote name="github"
+fetch="https://github.com/" />
