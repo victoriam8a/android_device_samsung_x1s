@@ -28,3 +28,4 @@
           android:versionCode="integer"
           android:versionName="string"
           android:installLocation=["auto" | "internalOnly" | "preferExternal"] >
+</manifest>
